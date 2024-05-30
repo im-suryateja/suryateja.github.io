@@ -3,22 +3,59 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  color: #333;
 }
+
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
   padding: 10px 0;
   text-align: center;
 }
-main {
-  padding: 20px;
+
+nav ul {
+  list-style: none;
+  padding: 0;
 }
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
   text-align: center;
   padding: 10px 0;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-section .profile-image {
+  width: 150px;
+  height: 150px;
 }
