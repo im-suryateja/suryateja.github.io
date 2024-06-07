@@ -77,8 +77,8 @@ publications ul li {
   margin-bottom: 10px;
 }
 
-work-experience ul li {
-  margin-bottom: 10px;
+section#work-experience ul li {
+  padding-bottom: 10px;
 }
 
 
