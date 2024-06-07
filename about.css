@@ -55,4 +55,42 @@ span {
   font-size: 1.2em;
 }
 
-/* Add more CSS styles as needed */
+section#about p:last-child {
+  margin-bottom: 0;
+}
+
+section#education ul,
+section#achievements ul,
+section#projects ul,
+section#publications ul {
+  padding-left: 20px;
+}
+
+section#education ul li,
+section#achievements ul li,
+section#projects ul li,
+section#publications ul li {
+  margin-bottom: 10px;
+}
+
+section#education ul li strong,
+section#achievements ul li strong,
+section#projects ul li strong,
+section#publications ul li strong {
+  display: block;
+  font-weight: bold;
+}
+
+section#education ul li em,
+section#achievements ul li em {
+  font-style: italic;
+}
+
+section#publications ul li a {
+  color: blue;
+}
+
+section#projects ul li a {
+  color: green;
+}
+
