@@ -72,7 +72,14 @@ section#education ul li {
 
 section#achievements ul li,
 section#projects ul li,
-section#publications ul li {
+publications ul li {
+  margin-bottom: 10px;
+}
+
+work-experience ul li {
+  margin-bottom: 10px;
+}
+education ul li {
   margin-bottom: 10px;
 }
 
