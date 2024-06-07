@@ -29,7 +29,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: blue;
+  color: #333;
 }
 
 section {
@@ -52,7 +52,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: blue;
+  color: #333;
 }
 
 span {
@@ -91,9 +91,9 @@ section#achievements ul li em {
 }
 
 section#publications ul li a {
-  color: blue
+  color: blue;
 }
 
 section#projects ul li a {
-  color: blue;
+  color: green;
 }
