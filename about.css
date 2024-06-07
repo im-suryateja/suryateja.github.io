@@ -1,11 +1,7 @@
-/* Reset default styles */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -70,10 +66,20 @@ section#publications ul {
   padding-left: 20px;
 }
 
-section#education ul li,
+section#education ul li {
+  padding-bottom: 10px;
+}
+
 section#achievements ul li,
 section#projects ul li,
-section#publications ul li {
+publications ul li {
+  margin-bottom: 10px;
+}
+
+work-experience li {
+  margin-bottom: 10px;
+}
+education li {
   margin-bottom: 10px;
 }
 
