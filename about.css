@@ -66,7 +66,10 @@ section#publications ul {
   padding-left: 20px;
 }
 
-section#education ul li,
+section#education ul li {
+  padding-bottom: 10px;
+}
+
 section#achievements ul li,
 section#projects ul li,
 section#publications ul li {
