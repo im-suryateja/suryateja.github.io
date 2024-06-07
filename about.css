@@ -77,12 +77,10 @@ publications ul li {
   margin-bottom: 10px;
 }
 
-work-experience li {
+work-experience ul li {
   margin-bottom: 10px;
 }
-education li {
-  margin-bottom: 10px;
-}
+
 
 section#education ul li strong,
 section#achievements ul li strong,
@@ -106,6 +104,10 @@ section#education ul li a {
 }
 
 section#work-experience ul li a {
+  color: blue;
+}
+
+section#about a {
   color: blue;
 }
 
