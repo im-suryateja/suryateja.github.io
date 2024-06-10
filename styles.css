@@ -60,7 +60,7 @@ nav a img {
   aspect-ratio: 1;
   border-radius: 50%; 
   object-fit: cover;
-  object-position: center;
+  object-position: top-center;
   border: 4px solid #fff; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   opacity: 0;
