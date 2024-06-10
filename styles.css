@@ -29,11 +29,12 @@ nav {
 .nav-left {
   display: flex;
   align-items: center;
+  padding-left: 50px;
 }
 
 .nav-right {
   display: flex;
-  padding-right: 80px;
+  padding-right: 50px;
   align-items: center;
 }
 
