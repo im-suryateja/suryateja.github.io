@@ -34,7 +34,9 @@ nav ul li a {
 
 .profile-image {
   width: 25%; 
-  height: 25%;
+  height: auto; 
+  max-width: 200px; 
+  aspect-ratio: 1;
   border-radius: 50%; 
   object-fit: cover;
   object-position: center;
