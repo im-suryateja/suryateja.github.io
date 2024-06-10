@@ -33,6 +33,8 @@ nav {
 
 .nav-right {
   display: flex;
+  padding-right: 20px;
+  align-items: center;
 }
 
 nav a {
