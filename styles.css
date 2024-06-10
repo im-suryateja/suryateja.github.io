@@ -37,6 +37,7 @@ nav ul li.home {
 nav ul li.nav-right {
   margin-left: auto;
   margin-right: 10px;
+  align: right;
 }
 
 nav ul li a {
