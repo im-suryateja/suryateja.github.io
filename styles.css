@@ -33,7 +33,8 @@ nav ul li a {
 }
 
 .profile-image {
-  width: 25%; /* Adjust the size to 25% */
+  width: 25%; 
+  height: 25%;
   border-radius: 50%; 
   object-fit: cover;
   object-position: center;
