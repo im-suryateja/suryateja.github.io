@@ -95,8 +95,8 @@ nav a img {
 }
 
 .text-content {
-  padding: 20px; /* Add padding around the text */
-  background-color: #f0f0f0; /* Optional background color */
+  padding: 20px;
+  background: linear-gradient(to right, #f8f8f8 0%, #f0f0f0 100%); /* Subtle gradient */
   border: 1px solid #ddd; /* Optional border */
   border-radius: 5px; /* Optional rounded corners */
   width: 80%;
@@ -134,15 +134,18 @@ footer {
 
 /* Contact section styling */
 .contact-section {
-  background-color: #fff;
-  border: 2px solid #ddd;
-  padding: 50px 50px; /* Top and bottom padding */
-  margin: 50px;
-  width: 80%; /* Set a width for the contact section */
+  background-color: #e0e0e0; /* Lighter background color */
+  border: 1px solid #ccc; /* Thinner border */
+  padding: 70px 50px; /* Increase padding */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  text-align: center; /* Center align the content */
-  margin-bottom: 50px;
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+}
+
+
+
+.contact-section ul li i {
+  margin-right: 10px; /* Space between icon and text */
 }
 
 
