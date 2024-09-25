@@ -6,6 +6,16 @@ body {
   color: #333;
 }
 
+.profile-container ul {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    }
+
+.profile-container p {
+    margin-bottom: 10px;
+    }
+
 header {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
