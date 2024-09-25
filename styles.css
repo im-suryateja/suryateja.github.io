@@ -101,6 +101,21 @@ nav a img {
   border-radius: 5px; /* Optional rounded corners */
 }
 
+.text-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.text-content ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.text-content li {
+    font-size: 1em;
+    margin: 5px 0; /* Space between list items */
+}
+
 footer {
   background-color: #fff;
   border-top: 1px solid #ddd;
