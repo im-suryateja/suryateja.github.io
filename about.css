@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.nav-right {
+  display: flex;
+  padding-right: 50px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bolder;
+  margin: 0 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+  color: #333;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+span {
+  font-size: 1.2em;
+}
+
+section#about p:last-child {
+  margin-bottom: 0;
+}
+
+section#education ul,
+section#achievements ul,
+section#projects ul,
+section#publications ul {
+  padding-left: 20px;
+}
+
+section#work-experience ul li {
+  padding-bottom: 10px;
+}
+
+section#achievements ul li,
+section#projects ul li,
+publications ul li {
+  margin-bottom: 10px;
+}
+
+section#education ul li {
+  padding-bottom: 10px;
+}
+
+
+section#education ul li strong,
+section#achievements ul li strong,
+section#projects ul li strong,
+section#publications ul li strong {
+  display: block;
+  font-weight: bold;
+}
+
+section#education ul li em,
+section#achievements ul li em {
+  font-style: italic;
+}
+
+section#publications ul li a {
+  color: blue;
+}
+
+section#education ul li a {
+  color: blue;
+}
+
+section#work-experience ul li a {
+  color: blue;
+}
+
+section#about a {
+  color: blue;
+}
+
+section#projects ul li a {
+  color: blue;
+}
