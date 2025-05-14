@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  padding-top: 80px; /* Adjust this based on your header height */
+}
+
 a {
   text-decoration: none;
   color: inherit;
