@@ -107,11 +107,20 @@ span {
   font-size: 1.2em;
 }
 
+/* Section layout fix */
+.education-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Card container layout (responsive) */
 .edu-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
+
 
 .edu-card {
   background: #ffffff;
