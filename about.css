@@ -14,6 +14,10 @@ a:hover {
   text-decoration: underline;
 }
 
+#about h2 {
+  margin-top: 40px; /* or padding-top */
+}
+
 header {
   background-color: white;
   border-bottom: 1px solid #ddd;
