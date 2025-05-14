@@ -107,7 +107,6 @@ span {
   font-size: 1.2em;
 }
 
-/* Education Cards */
 .edu-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -119,11 +118,16 @@ span {
   color: #1a1a1a;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 24px;
+  padding: 30px 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 100%;
 }
 
 .edu-card:hover {
@@ -132,33 +136,35 @@ span {
 }
 
 .edu-logo {
-  width: 80px;
-  height: auto;
-  border-radius: 8px;
-  margin-bottom: 16px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 0 auto 16px auto;
+  display: block;
 }
 
 .edu-card h3 {
   font-size: 1.1rem;
   font-weight: 600;
   color: #0073e6;
-  margin-bottom: 5px;
+  margin: 0 0 8px;
+  min-height: 48px;
 }
 
 .edu-card h4 {
   font-size: 1rem;
   font-weight: 500;
   background-color: #f0f4f8;
-  padding: 6px 12px;
+  padding: 8px 12px;
   border-radius: 6px;
-  margin: 10px 0;
+  margin: 12px 0;
   color: #333;
 }
 
 .edu-dates {
   font-size: 0.9rem;
   color: #555;
-  margin: 6px 0 12px;
+  margin: 6px 0 16px;
 }
 
 .edu-coursework {
@@ -170,7 +176,9 @@ span {
   border-radius: 6px;
   line-height: 1.6;
   text-align: left;
+  min-height: 120px;
 }
+
 
 /* Footer */
 footer {
