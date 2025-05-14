@@ -107,22 +107,24 @@ span {
   font-size: 1.2em;
 }
 
-/*Education Section layout /
-
+/* Section wrapper */
 .education-section {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* Card container layout (responsive) */
+/* Grid layout for the cards */
 .edu-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-
+/* Individual education card */
 .edu-card {
   background: #ffffff;
   color: #1a1a1a;
@@ -131,20 +133,20 @@ span {
   padding: 30px 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   max-width: 100%;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
 }
 
 .edu-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo styles */
 .edu-logo {
   width: 100px;
   height: 100px;
@@ -153,14 +155,16 @@ span {
   display: block;
 }
 
+/* University Name */
 .edu-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: #0073e6;
-  margin: 0 0 8px;
+  margin-bottom: 8px;
   min-height: 48px;
 }
 
+/* Degree Title */
 .edu-card h4 {
   font-size: 1rem;
   font-weight: 500;
@@ -169,14 +173,17 @@ span {
   border-radius: 6px;
   margin: 12px 0;
   color: #333;
+  line-height: 1.4;
 }
 
+/* Date range */
 .edu-dates {
   font-size: 0.9rem;
   color: #555;
   margin: 6px 0 16px;
 }
 
+/* Coursework section */
 .edu-coursework {
   font-size: 0.85rem;
   color: #444;
