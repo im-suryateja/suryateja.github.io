@@ -29,25 +29,31 @@ header {
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-left {
-  font-weight: 600;
-  font-size: 1rem;
+  flex: 1;
 }
 
 .nav-right {
   display: flex;
-  gap: 20px;
+  gap: 24px;
+  justify-content: flex-end;
+  flex: 1;
 }
 
+.nav-left a,
 .nav-right a {
   font-weight: 500;
+  font-size: 1rem;
   color: #333;
+  text-decoration: none;
 }
+
 
 /* Projects Section */
 .projects-section {
