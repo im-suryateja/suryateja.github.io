@@ -214,6 +214,11 @@ footer {
     padding: 20px;
   }
 
+  img {
+        height: 70px;
+        width: 280px;
+  }
+
   .edu-coursework {
     text-align: left;
   }
