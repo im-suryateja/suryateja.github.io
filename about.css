@@ -68,32 +68,65 @@ section {
   margin-bottom: 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-.education-grid {
+/* Education Cards Layout */
+.edu-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
 }
 
 .edu-card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease-in-out;
+  background: #1e1e1e;
+  color: #f2f2f2;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .edu-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+}
+
+.edu-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
 }
 
 .edu-card h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-  color: #0073e6;
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+  color: #00ff88; /* Green highlight like your screenshot */
 }
 
-.edu-card p {
-  margin: 6px 0;
+.edu-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.edu-dates {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 6px 0 12px;
+}
+
+.edu-coursework {
+  font-size: 0.85rem;
+  color: #dddddd;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-left: 4px solid #00ff88;
+  border-radius: 6px;
   line-height: 1.5;
 }
 
