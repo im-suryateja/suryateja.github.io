@@ -24,14 +24,25 @@ header {
   z-index: 999;
 }
 
-.nav-left a {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #1a1a1a;
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  flex: 1;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  flex: 1;
 }
 
 .nav-right a {
-  margin-left: 20px;
   font-weight: 500;
   color: #333;
 }
