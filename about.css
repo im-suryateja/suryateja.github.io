@@ -68,66 +68,73 @@ section {
   margin-bottom: 30px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-/* Education Cards Layout */
+/* Clean Education Grid */
 .edu-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
+/* Light card design */
 .edu-card {
-  background: #1e1e1e;
-  color: #f2f2f2;
-  padding: 25px;
-  border-radius: 16px;
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
   text-align: center;
-  text-decoration: none;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
 }
 
 .edu-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 14px 30px rgba(0,0,0,0.25);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo style */
 .edu-logo {
-  width: 100px;
+  width: 80px;
   height: auto;
-  margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
 }
 
+/* Headings and text */
 .edu-card h3 {
-  margin: 10px 0 5px;
   font-size: 1.1rem;
-  color: #00ff88; /* Green highlight like your screenshot */
+  font-weight: 600;
+  color: #0073e6;
+  margin-bottom: 5px;
 }
 
 .edu-card h4 {
   font-size: 1rem;
-  font-weight: 600;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
+  font-weight: 500;
+  background-color: #f0f4f8;
   padding: 6px 12px;
   border-radius: 6px;
   margin: 10px 0;
+  color: #333;
 }
 
 .edu-dates {
   font-size: 0.9rem;
-  color: #ccc;
+  color: #555;
   margin: 6px 0 12px;
 }
 
+/* Coursework section */
 .edu-coursework {
   font-size: 0.85rem;
-  color: #dddddd;
-  background: rgba(255, 255, 255, 0.05);
+  color: #444;
+  background: #f9fafb;
   padding: 12px;
-  border-left: 4px solid #00ff88;
+  border-left: 4px solid #0073e6;
   border-radius: 6px;
-  line-height: 1.5;
+  line-height: 1.6;
+  text-align: left;
 }
 
 /* Section Headings */
