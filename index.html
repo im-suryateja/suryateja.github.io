@@ -2,94 +2,100 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Surya Teja Pidakala | Data Engineer</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surya Teja Pidakala | Data Analytics Engineer</title>
+  <!-- Smooth scrolling -->
+  <style>html { scroll-behavior: smooth; }</n  </style>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome Icons -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-  <!-- Stylesheet -->
+  <!-- Main Styles -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <nav>
-      <div class="nav-left">
-        <a href="#">Surya Teja Pidakala</a>
-      </div>
-      <div class="nav-right">
-        <a href= about.html>About</a>
-        <a href=projects.html>Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
+    <nav class="navbar">
+      <a href="#" class="nav-logo">Surya Teja Pidakala</a>
+      <ul class="nav-menu">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="hero-section">
-  <div class="hero-container">
-    <div class="hero-left">
-      <img src="11.png" alt="Surya Teja" class="hero-image" />
+  <!-- Hero Section -->
+  <section id="hero" class="section hero">
+    <div class="container flex items-center">
+      <div class="hero-text">
+        <h1 class="hero-title">Senior Data Analytics Engineer</h1>
+        <p class="hero-subtitle">Finance Sector Specialist | Python • SQL • GCP • Tableau</p>
+        <p class="hero-description">With over 5 years of hands-on experience accelerating data-driven decisions at Capital One and Discover Financial, I architect and automate cloud-native ETL pipelines, reducing runtimes by 40% and enabling real-time risk monitoring on 50M+ transactions.</p>
+        <div class="hero-cta">
+          <a href="resume.pdf" class="btn btn-primary" target="_blank"><i class="fas fa-download"></i> Download Resume</a>
+          <a href="#contact" class="btn btn-secondary"><i class="fas fa-comments"></i> Let’s Discuss Your Data Goals</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="11.png" alt="Surya Teja" class="rounded" />
+      </div>
     </div>
-    <div class="hero-right">
-      <h1>Hi, I'm <span class="highlight">Surya Teja Pidakala</span></h1>
-      <p class="hero-tagline">Data Analytics Engineer specializing in Finance</p>
-      <p class="hero-tagline">Python • SQL • AWS • Tableau</p>
-      <p class="hero-summary">
-        I’m a <strong>Senior Data Analytics Engineer</strong> with over 5 years of hands-on experience transforming raw data into actionable insights at top financial institutions. From architecting cloud-native ETL pipelines to deploying high-availability data platforms, I dive deep into every layer of the stack—whether it’s optimizing Spark jobs, automating workflows in <strong>Airflow</strong>, or tuning <strong>Snowflake</strong> for peak performance.
-      </p>
-      <p class="hero-summary">
-        A natural go-getter, I don’t wait for problems to surface—I seek them out, design elegant solutions, and partner with <strong>cross-functional teams</strong> to bring ideas to life. Whether mentoring junior analysts in SQL best practices, building customer-segmentation models that boosted campaign ROI, or spinning up new dashboards in <strong>Power BI</strong> and <strong>Databricks</strong>, I combine deep technical expertise with an entrepreneurial mindset to move the needle—fast.
-      </p>
-      <a href="https://drive.google.com/file/d/1eU6QCLLTvdy_PyjHF8Nqo7fjTvWvWp3J/view?usp=sharing" class="cta-btn" target="_blank">
-        <i class="fas fa-download"></i> View Resume
-      </a>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects bg-light">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Credit Risk Pipeline</h3>
+          <p>Designed an ETL workflow in Databricks & Airflow processing 50M+ transactions/month to support 24/7 fraud detection and real-time scoring.</p>
+        </div>
+        <div class="project-card">
+          <h3>Customer Segmentation</h3>
+          <p>Built predictive models in Python & Alteryx to segment 5M customers, boosting campaign ROI by 17% and informing marketing strategy.</p>
+        </div>
+        <div class="project-card">
+          <h3>Cloud Data Platform</h3>
+          <p>Architected a high-availability data platform on GCP and AWS using Snowflake, Kafka & Databricks, achieving 99.9% uptime.</p>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-    <section id="contact" class="contact-section">
-  <h2>Contact</h2>
-  <div class="contact-container">
-    <div class="contact-left">
-      <h3>Let's talk</h3>
-      <p>I'm currently available to work. Reach out if there is any potential Opportunity.</p>
-      <ul class="contact-info">
-        <li><i class="fas fa-phone-alt"></i> +1 (813) 860-1927</li>
-        <li><i class="fas fa-envelope"></i> suryateja.9902@gmail.com</li>
-        <li><i class="fas fa-map-marker-alt"></i> FL, USA</li>
-      </ul>
-    </div>
-    <div class="contact-right">
-      <form id="contact-form">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required />
-
-        <label for="email">Your Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required />
-
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
-
-        <button type="submit" class="submit-btn">Send Message</button>
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container flex">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>I'm open to new roles and ready to help you harness the power of data. Let's connect!</p>
+        <ul>
+          <li><i class="fas fa-phone-alt"></i> +1 (813) 860-1927</li>
+          <li><i class="fas fa-envelope"></i> suryateja.9902@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Florida, USA (F1 OPT / Open to Sponsorship)</li>
+        </ul>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name*" required />
+        <input type="email" name="email" placeholder="Your Email*" required />
+        <textarea name="message" rows="5" placeholder="Your Message*" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
     </div>
-  </div>
-</section>
+  </section>
 
-  </main>
-
-  <footer>
-    <p>© 2025 Surya Teja Pidakala</p>
-    <div class="footer-icons">
-      <a href="https://github.com/im-suryateja" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="mailto:suryateja.9902@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/suryatejapidakala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <footer class="footer">
+    <div class="container center">
+      <p>© 2025 Surya Teja Pidakala</p>
+      <div class="social-links">
+        <a href="https://github.com/im-suryateja" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:suryateja.9902@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/suryatejapidakala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
   <script src="contact.js"></script>
 </body>
 </html>
