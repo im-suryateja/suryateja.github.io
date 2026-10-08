@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Statewise and Regional Car Price & Mileage Analysis</title>
-    <link rel="stylesheet" href="anova.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car price and mileage by state and region | Surya Teja Pidakala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>Surya Teja Pidakala</h1>
-        <h2>Statewise and Regional Car Price & Mileage Analysis</h2>
-        <h3>Project Description</h3>
-      <p>This project uses a real-world dataset of used cars listed across various U.S. regions and states to analyze factors affecting asking price and odometer reading. We applied ANOVA and Tukey’s HSD post-hoc tests to compare means across states, fuel types, vehicle conditions, and regions using R programming. </p>
-        <ul>
-            <li>Used Levene’s Test to check for homogeneity of variances across regions.</li>
-            <li>Conducted a one-way ANOVA</li>
-            <li>Post-hoc Tukey HSD analysis</li>
-        </ul>
-        <div class="buttons">
-            <a href="https://drive.google.com/file/d/13BZhHD82X0zNrmBO44-WTqS-Wf67n5ZV/view?usp=drive_link">Full Report</a>
-        </div>
-        <footer>
-            <p>© 2025 Surya Teja Pidakala</p>
-        </footer>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Surya Teja Pidakala</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
     </div>
+  </header>
+
+  <main class="detail">
+    <div class="wrap">
+      <a class="back-link" href="index.html#projects">Back to projects</a>
+      <h1>Car price and mileage by state and region</h1>
+      <p class="lede">Statewise and regional analysis of used-car asking prices and odometer readings, done in R.</p>
+      <ul class="project-tags"><li>R</li><li>ANOVA</li></ul>
+      <h2>Description</h2>
+      <p>This project uses a real-world dataset of used cars listed across U.S. regions and states to analyze the factors that affect asking price and odometer reading. ANOVA and Tukey's HSD post-hoc tests compare means across states, fuel types, vehicle conditions and regions.</p>
+      <h2>Methods</h2>
+      <ul>
+        <li>Levene's test for homogeneity of variances across regions.</li>
+        <li>One-way ANOVA.</li>
+        <li>Post-hoc Tukey HSD analysis.</li>
+      </ul>
+      <a class="btn btn-primary" href="https://drive.google.com/file/d/13BZhHD82X0zNrmBO44-WTqS-Wf67n5ZV/view?usp=drive_link" target="_blank" rel="noopener">Read the full report</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Surya Teja Pidakala</p>
+      <p><a href="index.html#contact">Get in touch</a></p>
+    </div>
+  </footer>
 </body>
 </html>

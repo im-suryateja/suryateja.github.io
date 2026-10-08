@@ -2,91 +2,342 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Surya Teja Pidakala | Data Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surya Teja Pidakala | Senior Data Analyst</title>
+  <meta name="description" content="Senior Data Analyst at Arlo working on self-serve analytics, governed metrics, and customer lifecycle, churn and retention. Databricks, SQL, Python, Tableau." />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="nav-left">
-        <a href="#">Surya Teja Pidakala</a>
-      </div>
-      <div class="nav-right">
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">Surya Teja Pidakala</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#track-record">Results</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero-section">
-      <div class="hero-container">
-        <div class="hero-left">
-          <img src="11.png" alt="Surya Teja" class="hero-image" />
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div>
+          <h1>Most companies don't have a data problem. They have a trust and access problem.</h1>
+          <p class="hero-intro">
+            I'm <strong>Surya Teja Pidakala</strong>, a Senior Data Analyst at Arlo. I'm helping build a data intelligence layer on Databricks where anyone can ask a question and get a trusted answer, with the metric definitions already built in and the same result every time.
+          </p>
+          <p class="hero-intro">
+            Five-plus years across Arlo, Capital One, GanaIT and Salesforce, focused on customer lifecycle, churn and retention.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://drive.google.com/file/d/1eU6QCLLTvdy_PyjHF8Nqo7fjTvWvWp3J/view?usp=sharing" target="_blank" rel="noopener">
+              <i class="fas fa-file-lines" aria-hidden="true"></i> View resume
+            </a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
         </div>
-        <div class="hero-right">
-          <h1>Hi, I'm <span class="highlight">Surya Teja Pidakala</span></h1>
-          <p class="hero-tagline">Senior Data Analytics Engineer</p>
-          <p class="hero-tagline">Python • SQL • AWS • Tableau</p>
-          <p class="hero-summary">
-            I’m a Senior <strong>Data Analytics Engineer</strong> with over 5 years of hands-on experience transforming raw data into actionable insights at top financial institutions. From architecting cloud-native ETL pipelines to deploying high-availability data platforms, I dive deep into every layer of the stack—whether it’s optimizing Spark jobs, automating workflows in <strong>Airflow</strong>, or tuning <strong>Snowflake</strong> for peak performance.
-          </p>
-          <p class="hero-summary">
-            A natural go-getter, I don’t wait for problems to surface—I seek them out, design elegant solutions, and partner with <strong>cross-functional teams</strong> to bring ideas to life. Whether mentoring junior analysts in <strong></strong>SQL best practices, building customer-segmentation models that boosted campaign ROI, or spinning up new dashboards in <strong>Power BI</strong> and <strong>Databricks</strong>, I combine deep technical expertise with an entrepreneurial mindset to move the needle—fast.
-          </p>
-          <a href="https://drive.google.com/file/d/1eU6QCLLTvdy_PyjHF8Nqo7fjTvWvWp3J/view?usp=sharing" class="cta-btn" target="_blank">
-            <i class="fas fa-download"></i> View Resume
-          </a>
+
+        <figure class="portrait">
+          <img src="portrait.jpg" alt="Portrait of Surya Teja Pidakala" width="720" height="900" />
+          <figcaption>Based in the San Francisco Bay Area</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Track record -->
+    <section class="section" id="track-record">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>What the work has changed</h2>
+          <p>Four results I can point to, and where they came from.</p>
+        </div>
+
+        <table class="record">
+          <thead>
+            <tr>
+              <th scope="col">Result</th>
+              <th scope="col">Where</th>
+              <th scope="col">How</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">9% lift in feature engagement and upsell conversions</th>
+              <td>Capital One</td>
+              <td>Designed, ran and evaluated A/B tests with product on digital credit products.</td>
+            </tr>
+            <tr>
+              <th scope="row">~15% of at-risk subscribers recovered</th>
+              <td>GanaIT</td>
+              <td>Analyzed drop-off patterns and built targeted re-engagement strategies.</td>
+            </tr>
+            <tr>
+              <th scope="row">40% lower reporting latency</th>
+              <td>NSIC</td>
+              <td>Automated pipelines and modular dashboard components.</td>
+            </tr>
+            <tr>
+              <th scope="row">One definition of MAU and retention across regions</th>
+              <td>Salesforce</td>
+              <td>Reusable SQL models for MAU, feature retention and engagement decay.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>Most recent first.</p>
+        </div>
+
+        <ol class="lineage">
+          <li class="job current">
+            <div class="job-head">
+              <h3>Arlo Technologies</h3>
+              <span class="job-dates">Dec 2025 to present</span>
+            </div>
+            <p class="job-role"><strong>Senior Data Analyst</strong>, Milpitas, CA</p>
+            <ul>
+              <li>Own experimentation and KPI reporting across product and marketing, covering growth, churn and customer behavior for Arlo's subscription platform.</li>
+              <li>Maintain Tableau dashboards that senior leadership uses for roadmap and investment decisions.</li>
+              <li>Build Databricks pipelines for analytics-ready transformations, quality validation and experimentation workflows.</li>
+              <li>Connect Amplitude and SFMC data to link behavioral signals with subscription performance and campaign results.</li>
+            </ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Capital One</h3>
+              <span class="job-dates">Jan 2025 to Nov 2025</span>
+            </div>
+            <p class="job-role"><strong>Senior Data Analyst</strong>, contract via Ascendion. Subscription Analytics Engine for Digital Credit Products</p>
+            <ul>
+              <li>Drove a 9% lift in feature engagement and upsell conversions through A/B tests designed with product.</li>
+              <li>Built Looker dashboards tracking MAU, LTV, ARPU and churn for premium subscription products, used by product, marketing and finance.</li>
+              <li>Led behavioral analysis to find engagement patterns and churn indicators across the digital subscriber base.</li>
+              <li>Worked with data engineering to strengthen event tracking schemas and QA pipelines.</li>
+            </ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>GanaIT</h3>
+              <span class="job-dates">Aug 2023 to Dec 2024</span>
+            </div>
+            <p class="job-role"><strong>Data Analyst</strong>, Tampa, FL</p>
+            <ul>
+              <li>Recovered nearly 15% of at-risk subscribers through drop-off analysis and targeted re-engagement.</li>
+              <li>Built SQL cohort models for customer lifetime value and subscription-tier segmentation across banking service products.</li>
+              <li>Designed Tableau and Power BI dashboards for user activity, revenue trends and churn, aligned to finance and marketing reporting cycles.</li>
+              <li>Ran A/B and pre/post analysis on feature rollouts and pricing changes to guide risk decisions.</li>
+            </ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Salesforce</h3>
+              <span class="job-dates">Jun 2020 to Jul 2022</span>
+            </div>
+            <p class="job-role"><strong>Data Analyst</strong>, India</p>
+            <ul>
+              <li>Built event tracking pipelines with Spark, Hive and Airflow to capture clickstream data across Salesforce's global partner ecosystem.</li>
+              <li>Developed reusable SQL models for MAU, feature retention and engagement decay, standardizing KPI definitions across regional teams.</li>
+              <li>Created Tableau and Presto dashboards on partner engagement and feature adoption for product and marketing leads.</li>
+              <li>Improved experimentation frameworks and funnel QA, making metrics more consistent across global outputs.</li>
+            </ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>National Small Industries Corporation (NSIC)</h3>
+              <span class="job-dates">Jan 2019 to May 2020</span>
+            </div>
+            <p class="job-role"><strong>Data Analyst</strong>, Hyderabad, India. Micro-Finance Product Retention and Risk Insights Platform</p>
+            <ul>
+              <li>Designed Power BI dashboards tracking borrower retention, repayment behavior and cross-cycle revenue across micro-loan products.</li>
+              <li>Developed SQL automation that generates churn-risk alerts and recovery flags for loan officers.</li>
+              <li>Cut reporting latency by 40% through automated pipeline integration and modular dashboard components.</li>
+            </ul>
+          </li>
+
+          <li class="job">
+            <div class="job-head">
+              <h3>Visakhapatnam Steel Plant</h3>
+              <span class="job-dates">May 2018 to Jun 2019</span>
+            </div>
+            <p class="job-role"><strong>Data Developer</strong>, Visakhapatnam, India</p>
+            <ul>
+              <li>Analyzed plant data with statistical methods and machine learning models to identify trends.</li>
+              <li>Redesigned the inventory database, tuned indexes and stored procedures, and built a DTS package to migrate data between SQL Server, Access and Excel.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Graduate coursework and independent analysis. Each links to a short summary and the full report.</p>
+        </div>
+
+        <ul class="project-list">
+          <li class="project">
+            <img src="spacemissions.jpg" alt="" />
+            <div>
+              <h3><a href="spacemissions.html">Effects of privatization on space missions</a></h3>
+              <p>How launch failure rates, cost per kilogram and mission volume changed as private companies entered the industry.</p>
+              <ul class="project-tags"><li>Tableau</li><li>Data visualization</li></ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="bankruptcy.jpg" alt="" />
+            <div>
+              <h3><a href="bankruptcy.html">Bankruptcy prediction with machine learning</a></h3>
+              <p>A Random Forest model that scores a firm's bankruptcy risk, built for the insurance industry's risk assessment problem.</p>
+              <ul class="project-tags"><li>Machine learning</li><li>Predictive analysis</li></ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="analytics.jpg" alt="" />
+            <div>
+              <h3><a href="airlines.html">Airline route profitability analysis</a></h3>
+              <p>Ranked round-trip routes by demand, profit and punctuality, then ran breakeven analysis on the five recommended for investment.</p>
+              <ul class="project-tags"><li>Python</li><li>Data analytics</li><li>Airlines</li></ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <img src="Anova.jpeg" alt="" />
+            <div>
+              <h3><a href="anova.html">Car price and mileage by state and region</a></h3>
+              <p>ANOVA and Tukey HSD tests on used-car listings to compare asking price and odometer readings across U.S. states and regions.</p>
+              <ul class="project-tags"><li>R</li><li>ANOVA</li></ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education, credentials, tools -->
+    <section class="section" id="education">
+      <div class="wrap two-col">
+        <div>
+          <h2 style="margin-bottom:28px">Education</h2>
+
+          <div class="school">
+            <img src="usf_logo1.png" alt="University of South Florida logo" />
+            <div>
+              <h4>University of South Florida</h4>
+              <p>Master's, Business Analytics and Information Systems</p>
+              <p>Aug 2022 to Dec 2023</p>
+            </div>
+          </div>
+
+          <div class="school">
+            <img src="gcet_logo.png" alt="Geethanjali College of Engineering and Technology logo" />
+            <div>
+              <h4>Geethanjali College of Engineering and Technology</h4>
+              <p>B.Tech, Electronics and Communication</p>
+              <p>2016 to 2020</p>
+            </div>
+          </div>
+
+          <h3 style="margin: 36px 0 14px">Tools</h3>
+          <p><strong>Platforms and languages:</strong> Databricks, Spark, SQL, Python, R</p>
+          <p><strong>BI and analytics:</strong> Tableau, Looker, Power BI, Amplitude</p>
+          <p><strong>Pipelines:</strong> Airflow, Hive, Presto, SFMC</p>
+        </div>
+
+        <div>
+          <h2 style="margin-bottom:28px">Credentials</h2>
+
+          <h3>Certifications</h3>
+          <ul class="plain-list">
+            <li>Finance Foundations</li>
+            <li>Lloyds Banking Group: Data Science</li>
+            <li>Generative AI</li>
+            <li>Excel: Advanced Formulas and Functions</li>
+            <li>Certified Tester ISTQB Foundation Level (CTFL)</li>
+          </ul>
+
+          <h3>Honors and awards</h3>
+          <ul class="plain-list">
+            <li>On the Spot Award</li>
+            <li>Best Team Award</li>
+            <li>IEEE Xtreme 24-hour competitive programming <span class="note">Top 50 teams nationally, top 500 globally</span></li>
+          </ul>
+
+          <h3>Publication</h3>
+          <ul class="plain-list">
+            <li>
+              "Smart Extension Cord Using Node MCU"
+              <span class="note">PENSEE Journal, Vol 51, Issue 04 (2021). <a href="https://drive.google.com/file/d/12gTa1U1naqWj1CIpq_QyihFA5ARtAuIc/view" target="_blank" rel="noopener">Acceptance certificate</a></span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact-section">
-      <h2>Contact</h2>
-      <div class="contact-container">
-        <div class="contact-left">
-          <h3>Let's talk</h3>
-          <p>I'm currently available to work. Reach out if there is any potential Opportunity.</p>
-          <ul class="contact-info">
-            <li><i class="fas fa-phone-alt"></i> +1 (813) 860-1927</li>
-            <li><i class="fas fa-envelope"></i> suryateja.9902@gmail.com</li>
-            <li><i class="fas fa-map-marker-alt"></i> FL, USA</li>
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Let's talk</h2>
+          <p style="margin-top:14px; color: var(--ink-soft); max-width: 46ch">
+            Always glad to talk semantic layers, self-serve analytics and retention. Send a note and I'll reply by email.
+          </p>
+          <ul class="contact-links">
+            <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:suryateja.9902@gmail.com">suryateja.9902@gmail.com</a></li>
+            <li><i class="fab fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/suryatejapidakala/" target="_blank" rel="noopener">linkedin.com/in/suryatejapidakala</a></li>
+            <li><i class="fab fa-github" aria-hidden="true"></i><a href="https://github.com/im-suryateja" target="_blank" rel="noopener">github.com/im-suryateja</a></li>
           </ul>
         </div>
-        <div class="contact-right">
-          <form id="contact-form">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required />
 
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        <form class="contact-form" id="contact-form" novalidate>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required />
 
-            <label for="message">Your Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required />
 
-            <button type="submit" class="submit-btn">Send Message</button>
-          </form>
-        </div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn btn-primary" id="submit-btn">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Surya Teja Pidakala</p>
-    <div class="footer-icons">
-      <a href="https://github.com/im-suryateja" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="mailto:suryateja.9902@gmail.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/suryatejapidakala/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Surya Teja Pidakala</p>
+      <div class="footer-icons">
+        <a href="https://github.com/im-suryateja" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:suryateja.9902@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/suryatejapidakala/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      </div>
     </div>
   </footer>
 
