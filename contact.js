@@ -1,9 +1,11 @@
 (function () {
+  var ENDPOINT = "https://formspree.io/f/mrpeqoqq";
   var form = document.getElementById("contact-form");
   if (!form) return;
 
   var button = document.getElementById("submit-btn");
   var status = document.getElementById("form-status");
+  var fallback = " Email suryateja.9902@gmail.com instead.";
 
   function show(message, type) {
     status.textContent = message;
@@ -25,24 +27,26 @@
     }
 
     button.disabled = true;
-    show("Sending. The first message can take up to a minute while the server wakes up.");
+    show("Sending...");
 
-    fetch("https://contact-form-2hea.onrender.com/send", {
+    fetch(ENDPOINT, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
       body: JSON.stringify(data)
     })
-      .then(function (res) { return res.json(); })
-      .then(function (result) {
-        if (result.success) {
+      .then(function (res) {
+        if (res.ok) {
           show("Message sent. I'll reply by email.", "ok");
           form.reset();
-        } else {
-          show("The message didn't send" + (result.error ? ": " + result.error : ".") + " Email suryateja.9902@gmail.com instead.", "error");
+          return;
         }
+        return res.json().then(function (result) {
+          var detail = result && result.errors && result.errors[0] && result.errors[0].message;
+          show("The message didn't send" + (detail ? ": " + detail + "." : ".") + fallback, "error");
+        });
       })
       .catch(function () {
-        show("The message didn't send. Email suryateja.9902@gmail.com instead.", "error");
+        show("The message didn't send." + fallback, "error");
       })
       .finally(function () {
         button.disabled = false;
